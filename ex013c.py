@@ -1,0 +1,5 @@
+preço = float(input('Qual é o preço do produto? €'))
+novo = preço - (preço * 10 / 100)
+print('O produto que custa €{:.2f}, pagando a vista, vai ter um desconto de 10%, vai custar €{:.2f}'.format(preço,novo))
+novo = preço + (preço * 8 / 100)
+print('Este mesmo produto com o preço de €{:.2f}, pagando parcelado terá um aumento de 8%, vai custar €{:.2f}'.format(preço,novo))
